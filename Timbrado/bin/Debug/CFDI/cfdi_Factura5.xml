@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" tipoDeComprobante="ingreso" serie="A" folio="12345" fecha="2012-07-20T11:01:10" sello="aRqbNvXL4bzoo7BzDh1213If3Y4/3V+/kokwevS1oZQ49nosKet7UU7Q6oRUZ2kpmZP9XvpPesYviuSz43a1VEBk77E7ZC6Y7urYzVZuyAYZCZWskT/v6/rhKPswCRfCThm0wyvz+6+Vg42l8eL+abDCkKzo2jPuSxhRjN4B9f8=" formaDePago="Pago en una sola exhibici�n" noCertificado="00001000000104748684" certificado="MIIEVzCCAz+gAwIBAgIUMDAwMDEwMDAwMDAxMDQ3NDg2ODQwDQYJKoZIhvcNAQEFBQAwggE2MTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExHzAdBgkqhkiG9w0BCQEWEGFjb2RzQHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEzARBgNVBAcMCkN1YXVodGVtb2MxMzAxBgkqhkiG9w0BCQIMJFJlc3BvbnNhYmxlOiBGZXJuYW5kbyBNYXJ0w61uZXogQ29zczAeFw0xMTExMjMxNzA3MzBaFw0xMzExMjIxNzA3MzBaMIH3MTMwMQYDVQQDEypTSVNURU1BUyBERSBDT01FUkNJTyBESUdJVEFMIFMgREUgUkwgREUgQ1YxMzAxBgNVBCkTKlNJU1RFTUFTIERFIENPTUVSQ0lPIERJR0lUQUwgUyBERSBSTCBERSBDVjEzMDEGA1UEChMqU0lTVEVNQVMgREUgQ09NRVJDSU8gRElHSVRBTCBTIERFIFJMIERFIENWMSUwIwYDVQQtExxTQ0QxMTAxMDU2NTQgLyBHT1NGNTYwNDE4QTQ4MR4wHAYDVQQFExUgLyBHT1NGNTYwNDE4SENMTkxSMDUxDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArIFmM5y6KUiYHsosdu6tZo5ShepjeiJ0LSCnyyQKtfY4VvAj1N4wI0uQX4yK52ti0TT0i247h1bnSmHGlM8R5zmz9K2paTGvugEOnFutIN9bt64OW/PJh+mqAbPjVMba5AtFxFh39OmKhIOtfaQL+lObly9fm7iz/skd91QzTGcCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAAFkssrFqdl77t4VByWb1UXJQMGia2rSggZLbpSW3YMkLfFJ4PFn+OtWwi7SJvjgPf7UTJIcAYcRAx1MuW79CMGUD4gEjY0ljvPvphFdfohsT1NxVFKSJZqcvmOAR1vYnaCnfeGUrDOvlbTktiTj8BRON6TaujJLonejwf/QWDIPhoF6xBMq58AwS9mUSXyh2RkwF4703/lbRSUr5kR7phLXdId3M+KJ/g233xcdKOwRLRwFyoGhxqaFSupLLOc+p+Kzq1RwGCKqXpGnKzsNOCsWpq8rkdaZ4lWRvAWQvF3SG8YPAzHhmnMWMsk1/7SnmWAyPEOft1kSNvRmg69NDlY=" condicionesDePago="Contado" subTotal="320" motivoDescuento="Por pronto pago" TipoCambio="1.00" Moneda="MXN" total="384" metodoDePago="Tarjeta de credito" LugarExpedicion="CD Juarez, Chih" NumCtaPago="0033">
+	<cfdi:Emisor rfc="SCD110105654" nombre="Mi Empresa SA de CV">
+		<cfdi:DomicilioFiscal calle="Calle de la Amargura" noExterior="123" noInterior="456" colonia="Col. Bondojito" localidad="Oaxaca" referencia="Atras de una gasolinera" municipio="Oaxaca" estado="Oaxaca" pais="M�xico" codigoPostal="87345" />
+		<cfdi:ExpedidoEn calle="Av. Revolucion" noExterior="2233" noInterior="4455" colonia="Col. Centro" localidad="Tampico" referencia="Referencia" municipio="Tampico" estado="Tamaulipas" pais="M�xico" codigoPostal="47372" />
+		<cfdi:RegimenFiscal Regimen="general" />
+	</cfdi:Emisor>
+	<cfdi:Receptor rfc="PWD090210DR5" nombre="Mi Cliente SA de CV">
+		<cfdi:Domicilio calle="Patriotismo" noExterior="4579" noInterior="94" colonia="La A�oranza" localidad="Boca del Rio" referencia="Junto al mar" municipio="Veracruz" estado="Veracruz" pais="Mexico" codigoPostal="75489" />
+	</cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="10" unidad="Kilo" noIdentificacion="38495683628" descripcion="Arroz blanco marca SOE" valorUnitario="12" importe="120"></cfdi:Concepto>
+		<cfdi:Concepto cantidad="5" unidad="PZA" noIdentificacion="29845798357" descripcion="Pi�a dulce del bajio" valorUnitario="20" importe="100">
+			<cfdi:InformacionAduanera numero="1348759" fecha="1111-11-11" aduana="Aeropuerto Internal. de M�xico1" />
+		</cfdi:Concepto>
+		<cfdi:Concepto cantidad="4" unidad="Kg" noIdentificacion="98457345" descripcion="Frijol flor de mayo" valorUnitario="25" importe="100"></cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosTrasladados="64">
+		<cfdi:Traslados>
+			<cfdi:Traslado impuesto="IEPS" importe="32" tasa="10"></cfdi:Traslado>
+			<cfdi:Traslado impuesto="IVA" importe="32" tasa="10"></cfdi:Traslado>
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento>
+		<tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" UUID="2B62A3BB-D3A7-1749-9798-40C212BC95E4" FechaTimbrado="2015-11-06T17:07:03" selloCFD="aRqbNvXL4bzoo7BzDh1213If3Y4/3V+/kokwevS1oZQ49nosKet7UU7Q6oRUZ2kpmZP9XvpPesYviuSz43a1VEBk77E7ZC6Y7urYzVZuyAYZCZWskT/v6/rhKPswCRfCThm0wyvz+6+Vg42l8eL+abDCkKzo2jPuSxhRjN4B9f8=" noCertificadoSAT="20001000000100004047" selloSAT="AgQV/WbHJ5xOmxh1Q3Vwwf9PvFffqwOi0cmsOlBu9yooSreiuETgnwMm6Nr7wt3iDrj7sCuHezYNCJBj1tZqL+0qrtysgMcOm3qbs9BSFu4Wq8n+PH0FV+98cMSsn0JwKBlMq9Do2qGhKluy0Lk2XIf6HhBe8DNWlqnaFdoYC7o=" />
+	</cfdi:Complemento>
+</cfdi:Comprobante>

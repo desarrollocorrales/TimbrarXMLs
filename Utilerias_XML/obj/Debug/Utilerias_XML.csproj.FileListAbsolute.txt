@@ -1,0 +1,4 @@
+G:\Github\TimbrarXMLs\Utilerias_XML\bin\Debug\Utilerias_XML.dll
+G:\Github\TimbrarXMLs\Utilerias_XML\bin\Debug\Utilerias_XML.pdb
+G:\Github\TimbrarXMLs\Utilerias_XML\obj\Debug\Utilerias_XML.dll
+G:\Github\TimbrarXMLs\Utilerias_XML\obj\Debug\Utilerias_XML.pdb

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" version="3.2" serie="FM" folio="32465" fecha="2015-11-07T13:31:13" sello="L0Lz/Jv2A9zIaZDO5Q2F4XoubZA1+eCknQgQf8B1VAIGB6tuiiMm/N9FOf+ONX9MYRHBKBoebGBPu+YIvD9GNKbvcdsxEDM+FWf+2Vjz0KtSeCKW7f0fPWSpzTS2v3opySh9Y8+B26gbP4lKjqO7FEcYoHssSOTJboef7Ovag60=" formaDePago="Pago en una sola exhibición" noCertificado="00001000000301476083" certificado="MIIEsTCCA5mgAwIBAgIUMDAwMDEwMDAwMDAzMDE0NzYwODMwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xMzExMjkxNTI0MDRaFw0xNzExMjkxNTI0MDRaMIH9MTUwMwYDVQQDEyxBQkFTVEVDRURPUkEgREUgQ0FSTkVTIExPUyBDT1JSQUxFUyBTQSBERSBDVjE1MDMGA1UEKRMsQUJBU1RFQ0VET1JBIERFIENBUk5FUyBMT1MgQ09SUkFMRVMgU0EgREUgQ1YxNTAzBgNVBAoTLEFCQVNURUNFRE9SQSBERSBDQVJORVMgTE9TIENPUlJBTEVTIFNBIERFIENWMSUwIwYDVQQtExxBQ0M4NDA1MjFEVTkgLyBHQUdNNTAwOTI5OEg4MR4wHAYDVQQFExUgLyBHQUdNNTAwOTI5SE5MUlJHMDMxDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvkqpwIxeIOzVsSp7Y1w5G+ftx2S0ALGCQiKTRd7Q1xpaF/GpKJTDgkmKfUeVqEtXBTXLebixsHGjkMyqtcf6hdrY5ep/GHlAzSvKgjPjOs9fbcTMsUTppijXioT3UVpB1t/eIuqq3UB6KN888yh5iBsEnvc8CZZO7lfhY9CJRlkCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBABfhd/xZSi7WdG/tbesRyaFUkMTAzH1aSFvYmM4ej/aEdlhlFfRYD2oybtu/4Wv6ujd+q/ig2iPHgFa2EwruS6N4xa37JLnEVnz4B1WWdjEsyoAA0CO72wN9s3OVuhl76eOhy7jWygk7E+C+/R6zwioV5XqsD8i5GWROLC1RA/vBkJ6T5SdPReNbfJEL2d7lAs1dIFNeunIZFJEcbBw2BaR3dMDDctEpTDzFbp4cKWLGnBKoR5v5Bt5k6nIWTcSkq0QvFJogsQ8qaoNpg5OO8To7QMRwSrKRQ88WLfnHsKCR7vKdqjmy7zEJXlot+EbgTFmtN2h89OGlD7U7BEcWIck=" condicionesDePago="17 DIAS" subTotal="105.90" TipoCambio="1.00" Moneda="MXN" total="105.90" metodoDePago="No aplica" LugarExpedicion="DURANGO, DURANGO" NumCtaPago="No aplica" tipoDeComprobante="ingreso">
+	<cfdi:Emisor rfc="ACC840521DU9" nombre="ABASTECEDORA DE CARNES LOS CORRALES S.A. DE C.V.">
+		<cfdi:DomicilioFiscal calle="SEGUNDA DE SELENIO Y ESTAÑO" noExterior="SN" colonia="CIUDAD INDUSTRIAL" municipio="DURANGO" estado="DURANGO" pais="MEXICO" codigoPostal="34208" />
+		<cfdi:RegimenFiscal Regimen="Régimen general personas morales" />
+	</cfdi:Emisor>
+	<cfdi:Receptor rfc="XAXX010101000" nombre="ABARROTES NAVA">
+		<cfdi:Domicilio calle="CALLE 5 DE MAYO" noExterior="504" municipio="CHALCHIHUITES" estado="ZACATECAS" pais="MEXICO" codigoPostal="99260" />
+	</cfdi:Receptor>
+	<cfdi:Conceptos>
+		<cfdi:Concepto cantidad="1" unidad="KG" noIdentificacion="011275" descripcion="CLOD" valorUnitario="105.90" importe="105.90"></cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosTrasladados="0.00">
+		<cfdi:Traslados>
+			<cfdi:Traslado impuesto="IVA" tasa="0.00" importe="0.00" />
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+</cfdi:Comprobante>

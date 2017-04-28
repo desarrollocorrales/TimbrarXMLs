@@ -1,0 +1,5 @@
+G:\Github\TimbrarXMLs\Utilerias_FTP\bin\Debug\Utilerias_FTP.dll
+G:\Github\TimbrarXMLs\Utilerias_FTP\bin\Debug\Utilerias_FTP.pdb
+G:\Github\TimbrarXMLs\Utilerias_FTP\obj\Debug\Utilerias_FTP.dll
+G:\Github\TimbrarXMLs\Utilerias_FTP\obj\Debug\Utilerias_FTP.pdb
+G:\Github\TimbrarXMLs\Utilerias_FTP\obj\Debug\Utilerias_FTP.csprojResolveAssemblyReference.cache

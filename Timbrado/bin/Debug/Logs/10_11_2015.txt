@@ -1,0 +1,8 @@
+﻿ -   Archivo descargado correctamente: Factura1.xml
+ -   Archivo descargado correctamente: memo.xml
+Archivo Factura1.xml timbrado con exito!
+Archivo memo.xml timbrado con exito!
+ -   Archivo descargado correctamente: Factura1.xml
+ -   Archivo descargado correctamente: memo.xml
+Archivo Factura1.xml timbrado con exito!
+Archivo memo.xml timbrado con exito!

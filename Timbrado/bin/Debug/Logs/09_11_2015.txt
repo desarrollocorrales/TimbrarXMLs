@@ -1,0 +1,28 @@
+﻿ -   Archivo descargado correctamente: Factura1.xml
+ -   Archivo descargado correctamente: memo.xml
+Archivo Factura1.xml timbrado con exito!
+Archivo memo.xml timbrado con exito!
+ -   Archivo descargado correctamente: Factura1.xml
+ -   Archivo descargado correctamente: memo.xml
+Archivo Factura1.xml timbrado con exito!
+Archivo memo.xml timbrado con exito!
+ -   Archivo descargado correctamente: Factura1.xml
+ -   Archivo descargado correctamente: memo.xml
+Archivo Factura1.xml timbrado con exito!
+Archivo memo.xml timbrado con exito!
+Excepcion: System.Net.WebException
+  Mensaje: No es posible conectar con el servidor remoto
+Excepcion: System.Net.WebException
+  Mensaje: Error en el servidor remoto: 227 Entering Passive Mode (162,212,130,41,154,76)
+.
+Excepcion: System.Net.WebException
+  Mensaje: No es posible conectar con el servidor remoto
+Archivo Factura1.xml timbrado con exito!
+Archivo memo.xml timbrado con exito!
+ -   Archivo descargado correctamente: Factura1.xml
+ -   Archivo descargado correctamente: memo.xml
+Archivo Factura1.xml timbrado con exito!
+ -   Archivo descargado correctamente: Factura1.xml
+ -   Archivo descargado correctamente: memo.xml
+Archivo Factura1.xml timbrado con exito!
+Archivo memo.xml timbrado con exito!

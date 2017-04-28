@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://localhost/Timbrar/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://localhost/Timbrar/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/Timbrar/">
+      <s:element name="getTimbre">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cfdi_xml_in" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTimbreResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="codigo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="timbre_utf8" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTimbreCFDI">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cfdi_xml_in" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTimbreCFDIResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="codigo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xml_timbrado" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTimbresZIP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="num_cfdi" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip_in" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTimbresZIPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="codigo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="num_ok" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="num_error" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="zip_out" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="respuesta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getTimbreSoapIn">
+    <wsdl:part name="parameters" element="tns:getTimbre" />
+  </wsdl:message>
+  <wsdl:message name="getTimbreSoapOut">
+    <wsdl:part name="parameters" element="tns:getTimbreResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTimbreCFDISoapIn">
+    <wsdl:part name="parameters" element="tns:getTimbreCFDI" />
+  </wsdl:message>
+  <wsdl:message name="getTimbreCFDISoapOut">
+    <wsdl:part name="parameters" element="tns:getTimbreCFDIResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTimbresZIPSoapIn">
+    <wsdl:part name="parameters" element="tns:getTimbresZIP" />
+  </wsdl:message>
+  <wsdl:message name="getTimbresZIPSoapOut">
+    <wsdl:part name="parameters" element="tns:getTimbresZIPResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TimbrarV3Soap">
+    <wsdl:operation name="getTimbre">
+      <wsdl:input message="tns:getTimbreSoapIn" />
+      <wsdl:output message="tns:getTimbreSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getTimbreCFDI">
+      <wsdl:input message="tns:getTimbreCFDISoapIn" />
+      <wsdl:output message="tns:getTimbreCFDISoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getTimbresZIP">
+      <wsdl:input message="tns:getTimbresZIPSoapIn" />
+      <wsdl:output message="tns:getTimbresZIPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TimbrarV3Soap" type="tns:TimbrarV3Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getTimbre">
+      <soap:operation soapAction="http://localhost/Timbrar/getTimbre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTimbreCFDI">
+      <soap:operation soapAction="http://localhost/Timbrar/getTimbreCFDI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTimbresZIP">
+      <soap:operation soapAction="http://localhost/Timbrar/getTimbresZIP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TimbrarV3Soap12" type="tns:TimbrarV3Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getTimbre">
+      <soap12:operation soapAction="http://localhost/Timbrar/getTimbre" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTimbreCFDI">
+      <soap12:operation soapAction="http://localhost/Timbrar/getTimbreCFDI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTimbresZIP">
+      <soap12:operation soapAction="http://localhost/Timbrar/getTimbresZIP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TimbrarV3">
+    <wsdl:port name="TimbrarV3Soap" binding="tns:TimbrarV3Soap">
+      <soap:address location="http://pruebas.comercio-digital.mx/timbre/TimbrarV3.asmx" />
+    </wsdl:port>
+    <wsdl:port name="TimbrarV3Soap12" binding="tns:TimbrarV3Soap12">
+      <soap12:address location="http://pruebas.comercio-digital.mx/timbre/TimbrarV3.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

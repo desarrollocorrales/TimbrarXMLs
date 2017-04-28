@@ -1,0 +1,8 @@
+G:\Github\TimbrarXMLs\TimbradoSolucionFactible\TimbradoSolucionFactible\bin\Debug\TimbradoSolucionFactible.exe
+G:\Github\TimbrarXMLs\TimbradoSolucionFactible\TimbradoSolucionFactible\bin\Debug\TimbradoSolucionFactible.pdb
+G:\Github\TimbrarXMLs\TimbradoSolucionFactible\TimbradoSolucionFactible\obj\x86\Debug\TimbradoSolucionFactible.Form1.resources
+G:\Github\TimbrarXMLs\TimbradoSolucionFactible\TimbradoSolucionFactible\obj\x86\Debug\TimbradoSolucionFactible.Properties.Resources.resources
+G:\Github\TimbrarXMLs\TimbradoSolucionFactible\TimbradoSolucionFactible\obj\x86\Debug\TimbradoSolucionFactible.csproj.GenerateResource.Cache
+G:\Github\TimbrarXMLs\TimbradoSolucionFactible\TimbradoSolucionFactible\obj\x86\Debug\TimbradoSolucionFactible.exe
+G:\Github\TimbrarXMLs\TimbradoSolucionFactible\TimbradoSolucionFactible\obj\x86\Debug\TimbradoSolucionFactible.pdb
+G:\Github\TimbrarXMLs\TimbradoSolucionFactible\TimbradoSolucionFactible\bin\Debug\TimbradoSolucionFactible.exe.config
